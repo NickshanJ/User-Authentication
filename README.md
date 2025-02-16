@@ -101,7 +101,7 @@ Usage:
 
 Register a User:
 
-To create a new user, send a POST request to /api/users/register with the user data in the request body.
+To create a new user, send a POST request to https://user-authentication-w33d.onrender.com/api/users/register with the user data in the request body.
 
 Example Request:
 
@@ -114,7 +114,7 @@ json
 
 Login User:
 
-To authenticate a user, send a POST request to /api/users/login with the user credentials in the request body.
+To authenticate a user, send a POST request to https://user-authentication-w33d.onrender.com/api/users/login with the user credentials in the request body.
 
 Example Request:
 
@@ -133,7 +133,7 @@ json
 
 Get User Info:
 
-To retrieve user information, send a GET request to /api/users/me with the JWT token in the request headers.
+To retrieve user information, send a GET request to https://user-authentication-w33d.onrender.com/api/users/me with the JWT token in the request headers.
 
 Example Request Header:
 
